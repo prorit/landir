@@ -106,3 +106,23 @@ int main() {
     return 0;
 }
 */
+
+// Algorithm:
+// 1. Make the right-most index value pivot
+// 2. Partition the array using pivot value
+// 3. Quicksort left partition recursively
+// 4. Quicksort right partition recursively
+
+// Pseudocode:
+// quickSort(left, right)
+//    if right-left <= 0
+//       return
+//    else     
+//       pivot = A[right]
+//       partition = partitionFunc(left, right, pivot)
+//       quickSort(left,partition-1)
+//       quickSort(partition+1,right)    
+//    end if		
+// end
+
+// Time Complexity: O(n log n) in best/avg case, O(n^2) in worst case

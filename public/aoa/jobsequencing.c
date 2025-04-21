@@ -121,3 +121,14 @@ int main() {
     return 0;
 }
 */
+
+
+
+
+// Algorithm
+// 1. Find the maximum deadline value from the input set of jobs.
+// 2. Once, the deadline is decided, arrange the jobs in descending order of their profits.
+// 3. Selects the jobs with highest profits, their time periods not exceeding the maximum deadline.
+// 4.  The selected set of jobs are the output.
+
+// Time Complexity: O(n^2) in best/worst/avg.

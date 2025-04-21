@@ -80,3 +80,20 @@ int main() {
     return 0;
 }
 */
+
+
+
+
+
+// Algorithm: Max-Min-Element (numbers[]) 
+// max := numbers[1] 
+// min := numbers[1] 
+
+// for i = 2 to n do 
+//    if numbers[i] > max then  
+//       max := numbers[i] 
+//    if numbers[i] < min then  
+//       min := numbers[i] 
+// return (max, min) 
+
+// Time Complexity: O(n) in worst/best/average case

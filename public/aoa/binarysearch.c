@@ -93,3 +93,24 @@ int main() {
     return 0;
 }
 */
+
+
+
+
+
+// Pseudocode: Binary-Search(A, key)
+// 1. Set low = 0 and high = n-1
+// 2. While low <= high do
+//    mid = (low + high) / 2
+//    if A[mid] == key then
+//       return mid
+//    else if A[mid] < key then
+//       low = mid + 1
+//    else
+//       high = mid - 1
+//    end if
+//  end while
+// 3. return -1 (key not found)
+// 4. end
+//
+// Time Complexity: O(log n) in best/avg/worst case

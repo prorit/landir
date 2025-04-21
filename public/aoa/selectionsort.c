@@ -88,3 +88,22 @@ int main() {
     return 0;
 }
 */
+
+// ALGO:
+// 1. Set MIN to location 0.
+// 2. Search the minimum element in the list.
+// 3. Swap with value at location MIN.
+// 4. Increment MIN to point to next element.
+// 5. Repeat until the list is sorted.
+// Algorithm: Selection-Sort (A)
+// fori← 1 to n-1 do
+//   min j ←i;
+//   min x ← A[i]
+//   for j ←i + 1 to n do
+//      if A[j] < min x then
+//         min j ← j
+//         min x ← A[j]
+//   A[min j] ← A [i]
+//   A[i] ← min x
+// 
+// Time Complexity (Worst/Best/Avg): O(n^2)

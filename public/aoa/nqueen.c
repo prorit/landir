@@ -100,3 +100,24 @@ int main() {
     return 0;
 }
 */
+
+
+
+
+// Pseudocode for N-Queens Problem
+// solveNQueens(N):
+//     create an empty N x N board
+//     call placeQueen(row = 0)
+
+// placeQueen(row):
+//     if row == N:
+//         print the board as a solution
+//         return
+
+//     for col from 0 to N-1:
+//         if placing a queen at (row, col) is safe:
+//             place queen at (row, col)
+//             placeQueen(row + 1)
+//             remove queen from (row, col) // backtrack
+
+// Time Complexity: O(N!) in worst case, O(N^2) best/average case
